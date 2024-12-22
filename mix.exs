@@ -30,9 +30,9 @@ defmodule Plausible.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:finch, "~> 0.16.0"},
+      {:finch, "~> 0.18"},
       {:bypass, "~> 2.1.0", only: :test},
-      {:jason, "~> 1.0"},
+      {:jason, "~> 1.2"},
       {:ex_doc, "~> 0.30.5", only: :dev, runtime: false},
       {:dialyxir, "~> 1.3", only: [:dev], runtime: false},
       {:credo, "~> 1.7", only: [:dev, :test], runtime: false}
